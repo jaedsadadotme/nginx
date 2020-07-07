@@ -13,16 +13,16 @@ nginx
 - [ ] Generic Hash
 - [ ] Random
 
-## (Default) Round Robin
+(Default) Round Robin
 : สลับให้แต่ละ process ได้ทำงานคนละหนึ่งช่วงเวลา
 
-## Least Connections
+Least Connections
 : request จะถูกส่งไปตัวที่ มี connection น้อยที่สุด
 
-## IP Hash
+IP Hash
 : เอา ipv4 or ipv6 มา ``hash``
-## Generic Hash
+Generic Hash
 : เอา URI มา ``hash``
 
-## Random
+Random
 : แบบสลับ
