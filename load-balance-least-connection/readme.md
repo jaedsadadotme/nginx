@@ -6,6 +6,18 @@ app2:3002
 nginx
 ``` -->
 
+- nginx.conf
+```sh
+...
+  upstream web-server {
+    least_conn;
+    server app1:3001;
+    server app2:3002;
+  }
+...
+}
+```
+
 # NGINX Method
 - [ ] (Default) Round Robin 
 - [x] Least Connections
