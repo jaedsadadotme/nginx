@@ -14,15 +14,15 @@ nginx
 - [ ] Random
 
 ## (Default) Round Robin
-> สลับให้แต่ละ process ได้ทำงานคนละหนึ่งช่วงเวลา
+: สลับให้แต่ละ process ได้ทำงานคนละหนึ่งช่วงเวลา
 
 ## Least Connections
-> request จะถูกส่งไปตัวที่ มี connection น้อยที่สุด
+: request จะถูกส่งไปตัวที่ มี connection น้อยที่สุด
 
 ## IP Hash
-> เอา ipv4 or ipv6 มา ``hash``
+: เอา ipv4 or ipv6 มา ``hash``
 ## Generic Hash
-> เอา URI มา ``hash``
+: เอา URI มา ``hash``
 
 ## Random
-> แบบสลับ
+: แบบสลับ
