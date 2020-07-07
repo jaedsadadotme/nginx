@@ -13,7 +13,13 @@ nginx
 - [ ] Generic Hash
 - [ ] Random
 
-(Default) Round Robin
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+<!-- (Default) Round Robin
 : สลับให้แต่ละ process ได้ทำงานคนละหนึ่งช่วงเวลา
 
 Least Connections
@@ -25,4 +31,4 @@ Generic Hash
 : เอา URI มา ``hash``
 
 Random
-: แบบสลับ
+: แบบสลับ -->
