@@ -10,7 +10,7 @@ nginx
 ```sh
 ...
   upstream web-server {
-    ip_hash;
+    hash $request_uri consistent;
     server app1:3001;
     server app2:3002;
   }
@@ -21,8 +21,8 @@ nginx
 # NGINX Method
 - [ ] (Default) Round Robin 
 - [ ] Least Connections
-- [x] IP Hash
-- [ ] Generic Hash
+- [ ] IP Hash
+- [x] Generic Hash
 - [ ] Random
 
 --- 
