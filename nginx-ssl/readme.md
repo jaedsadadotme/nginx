@@ -1,0 +1,3 @@
+```sh
+$ sudo ./sh <domain>
+```

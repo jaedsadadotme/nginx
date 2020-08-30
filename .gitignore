@@ -2,3 +2,5 @@ reverse-proxy/app1/node_modules
 reverse-proxy/app2/node_modules
 load-balance-round-robin/app1/node_modules
 load-balance-round-robin/app2/node_modules
+certbot
+data
